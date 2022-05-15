@@ -172,6 +172,7 @@ function onFundDeleteComplete(response, status) {
 	}
 }
 
+//----------------------------------Delete Methods---------------------------
 function onFundDeleteComplete(response, status) {
 	if (status == "success") {
 		var resultSet = JSON.parse(response);
